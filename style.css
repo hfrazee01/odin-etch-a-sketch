@@ -16,7 +16,22 @@ body {
     color: var(--heading-color);
     font-family: cursive;
     font-size: 64px;
-    padding: 60px;
+    padding: 40px;
+}
+
+button {
+    padding: 16px;
+    font-size: 18px;
+    margin: 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--heading-color);
+}
+
+button:hover {
+    padding: 13px;
+    border: 3px solid var(--heading-color);
+    background-color: white;
 }
 
 .container {
