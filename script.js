@@ -5,7 +5,9 @@ function makeGrid() {
 
     for (let i = 0; i < 16 * 16; i++) {
         const gridElement = document.createElement("grid-element");
-        // gridElement.style.border = "1px solid black";
+        gridElement.addEventListener("mouseover", function() {
+            gridElement.style.backgroundColor = "black";
+        });
         grid.appendChild(gridElement);
     }
 }
